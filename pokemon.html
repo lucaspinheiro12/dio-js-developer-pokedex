@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon</title>
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Font Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+        <!-- Nosso CSS -->
+        <link rel="stylesheet" href="/assets/css/styleGlobal.css">
+        <link rel="stylesheet" href="/assets/css/stylePokemon.css">
+    </head>
+    <body class="container">
+        <section class="pokemon" data-tipo-pokemon>
+        </section>
+        <div class="menu-horizontal">
+            <ul id="lista" class="lista">
+                <li id="sobre" class="atributos-lista-menu" >About</li>
+                <li id="estrutura" class="atributos-lista-menu" >Base Stats</li>
+                <li id="evolução" class="atributos-lista-menu" >Evolution</li>
+                <li id="movimentos" class="atributos-lista-menu" >Moves</li>
+            </ul>
+            <ul id="linha" class="lista linhas">
+                <li id="linha-sobre"  class="atributos-lista-linha sobre " ></li>
+                <li id="linha-estrutura"  class="atributos-lista-linha estrutura "></li>
+                <li id="linha-evolução"  class="atributos-lista-linha evolução"></li>
+                <li id="linha-movimentos"  class="atributos-lista-linha movimentos"></li>
+            </ul>
+       </div>
+        <section class="atributos" data-tipo-atributos >
+          
+        </section>
+    </body>
+    <script src="assets/js/pokeApi.js"></script>
+    <script src="assets/js/paginadinamica.js"></script>
+</html>

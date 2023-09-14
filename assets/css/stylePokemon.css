@@ -1,0 +1,267 @@
+/*Header*/
+.pokemon {
+    display: flex;
+    height: 45%;  
+}
+.pokemon-div{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 0 5%;
+    width: 100%;
+}
+.number {
+    color: #fff;
+    text-align: right;
+    font-size: large;
+}
+.name {
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: #fff;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+} 
+.types  {
+    width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    filter: brightness(1.1);
+    text-align: center;
+}
+.type{
+    padding: 10px;
+    margin-right: 5%;
+    width: 40%;
+    background-color: #77c850;
+    border-radius: 1rem;
+}
+.imagem {
+    align-self: center;
+    width: 250px;
+    padding: 10px;
+}
+
+/*lista*/
+
+.menu-horizontal{
+    width: 100%;
+}
+.lista {
+    height: 25px;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.atributos-lista-menu  {
+    width: 25%;
+    cursor: pointer;
+}
+.atributos-lista-linha{
+    margin: 0;
+}
+.linhas{
+    height: 3px;
+    margin-top: 0;
+}
+.linha-clicada{
+    width: 25%;
+    background-color: rgb(54, 52, 52);
+}
+/* body*/
+
+    /*About*/
+.atributos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.criacao{
+    padding-left: 20px;
+    align-self: flex-start;
+}
+
+.especie{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.caracteristicas {
+    padding-left: 15px;
+    width: 35%;
+}
+
+.especie-caracteristicas{
+    opacity: 0.2;
+    padding: 3px;
+}
+
+.valor{
+    width: 35%;
+}
+.especie-valor{
+    padding:  3px;
+}
+
+    /*Stats*/
+  
+.stats{
+    padding-top: 30px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}  
+ .caracteristicas-stats{
+    width: 20%;
+    padding: 0;
+}  
+
+.valor-stats{
+    padding: 0 ;
+    align-items: center;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.linha{
+    padding-left: 10px;
+    width:75%;
+}
+.linha-valor{
+    margin-top: 8px;
+    margin-bottom: 18px;
+    height: 6px;
+    border-radius: 50px;
+}
+
+.ate50{
+    width: 43%;
+    background-color: red;
+}
+.ate75{
+    width: 60%;
+    background-color: yellow;
+}
+.apartir76{
+    width: 75%; 
+background-color: green;
+}
+.apartir85{
+    width: 90%;
+    background-color: blue;
+}
+
+.apartir100{
+    width: 100%;
+    background-color: gold;
+}
+
+    /*Evolution*/
+
+    
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+/**/
+
+
+@media screen and (min-width: 600px) {
+    .lista {
+        font-size: 17px;
+    }
+    .especie{
+        width: 80%;
+    }
+    .criacao{
+        align-self: center;
+    }
+}
+ 
